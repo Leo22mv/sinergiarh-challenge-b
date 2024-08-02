@@ -7,9 +7,9 @@ services:
     ports:
       - "8080:8080"
     environment:
-      DB_URL: jdbc:mysql://sinergiarh-challenge:3306/b7v2h0wyhihgvv2hla9q
-      DB_USER_NAME: u4xbhafwsx3z5lg0
-      DB_PASSWORD: BEbxLe6x7uSuhiTzZiPf
+      DB_URL: jdbc:mysql://sinergiarh-db:3306/sinergiarh-challenge
+      DB_USER_NAME: root
+      DB_PASSWORD: 1234
     restart: always
     depends_on:
       sinergiarh-db:
