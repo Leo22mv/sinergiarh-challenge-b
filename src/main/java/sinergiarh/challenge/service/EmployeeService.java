@@ -3,8 +3,11 @@ package sinergiarh.challenge.service;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
 import sinergiarh.challenge.entity.Employee;
 
+@Service
 public interface EmployeeService {
     Employee create(Employee employee);
     Optional<Employee> edit(Long id, Employee editedEmployee);
