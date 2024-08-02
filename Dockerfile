@@ -4,5 +4,5 @@ ENV DB_USER=u4xbhafwsx3z5lg0
 ENV DB_PASS=BEbxLe6x7uSuhiTzZiPf
 ARG JAR_FILE=target/sinergiarh-challenge.jar
 COPY ${JAR_FILE} sinergiarh-challenge.jar
-EXPOSE 8080
+EXPOSE 10000
 ENTRYPOINT ["java", "-jar", "sinergiarh-challenge.jar"]
