@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PutMapping;
 
-// Controlador con los endpoints para administrar los empleados
+// Controlador con los endpoints necesarios para administrar los empleados
 
 @RestController
 @RequestMapping("/employee")

@@ -12,6 +12,8 @@ import sinergiarh.challenge.entity.Employee;
 import sinergiarh.challenge.repository.EmployeeRepository;
 import sinergiarh.challenge.service.EmployeeService;
 
+// Implementación del servicio de empleados
+
 @AllArgsConstructor
 @Service
 public class EmployeeServiceImpl implements EmployeeService {

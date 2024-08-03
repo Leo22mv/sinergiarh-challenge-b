@@ -9,6 +9,8 @@ import sinergiarh.challenge.entity.TaskCategory;
 import sinergiarh.challenge.repository.TaskCategoryRepository;
 import sinergiarh.challenge.repository.TaskRepository;
 
+// Seeder utilizado para inciar las bases de datos de tareas y categorías de tareas
+
 @Configuration
 public class TaskDataSeeder {
     @Bean

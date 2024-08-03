@@ -10,6 +10,8 @@ import sinergiarh.challenge.entity.Task;
 import sinergiarh.challenge.repository.TaskRepository;
 import sinergiarh.challenge.service.TaskService;
 
+// Implementación del servicio de tareas
+
 @Service
 public class TaskServiceImpl implements TaskService {
 

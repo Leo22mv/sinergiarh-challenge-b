@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+// Controlador con los endpoints necesarios para administrar las tareas
 
 @RestController
 @RequestMapping("/task")

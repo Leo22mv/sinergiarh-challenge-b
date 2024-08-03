@@ -8,6 +8,8 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+// Entidad de género
+
 @NoArgsConstructor
 @Getter
 @Entity

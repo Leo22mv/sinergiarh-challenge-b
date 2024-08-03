@@ -10,6 +10,8 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+// Entidad de tarea
+
 @NoArgsConstructor
 @Getter
 @Entity

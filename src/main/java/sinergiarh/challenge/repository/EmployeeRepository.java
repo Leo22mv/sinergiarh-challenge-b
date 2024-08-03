@@ -9,6 +9,8 @@ import org.springframework.stereotype.Repository;
 
 import sinergiarh.challenge.entity.Employee;
 
+// Repositorio que brinda los métodos necesarios para administrar los empleados
+
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
     @Query("SELECT e FROM Employee e WHERE LOWER(e.name) LIKE LOWER(CONCAT('%', :name, '%'))")

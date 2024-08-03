@@ -7,6 +7,8 @@ import org.springframework.context.annotation.Configuration;
 import sinergiarh.challenge.entity.Gender;
 import sinergiarh.challenge.repository.GenderRepository;
 
+// Seeder utilizado para inciar la base de datos de género
+
 @Configuration
 public class GenderDataSeeder {
     @Bean

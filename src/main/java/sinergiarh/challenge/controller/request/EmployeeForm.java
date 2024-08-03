@@ -4,6 +4,8 @@ import java.util.List;
 
 import lombok.Getter;
 
+// Modelo para recibir formularios de empleados desde el front-end
+
 @Getter
 public class EmployeeForm {
     private String name;

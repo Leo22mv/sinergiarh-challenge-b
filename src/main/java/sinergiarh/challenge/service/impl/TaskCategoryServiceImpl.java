@@ -10,6 +10,8 @@ import sinergiarh.challenge.entity.TaskCategory;
 import sinergiarh.challenge.repository.TaskCategoryRepository;
 import sinergiarh.challenge.service.TaskCategoryService;
 
+// Implementación del servicio de categorías de tareas
+
 @Service
 public class TaskCategoryServiceImpl implements TaskCategoryService {
 

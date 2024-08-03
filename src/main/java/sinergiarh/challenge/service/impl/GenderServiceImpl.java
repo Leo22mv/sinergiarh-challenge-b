@@ -10,6 +10,8 @@ import sinergiarh.challenge.entity.Gender;
 import sinergiarh.challenge.repository.GenderRepository;
 import sinergiarh.challenge.service.GenderService;
 
+// Implementación del servicio de géneros
+
 @Service
 public class GenderServiceImpl implements GenderService {
 
